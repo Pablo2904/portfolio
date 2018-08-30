@@ -11,7 +11,7 @@ const Contact = () => {
           <img className="img-fluid my-5 " src={ja} alt="Pawel Koscielny"/>
           <p className="contact__about mt-3 p-4 border ">
             Hey I'm Paul, I'm 26yrs old. Currently gradute of University of Science and Technology (AGH), where I got bachelor degree, of Mining and Geology. I'm learning programing for about 1,5 year on my own. Lately finished course "Front-End Developer", in "Centrum Szkoleń Informatycznych Vedius" in Cracow. <br/>
-            Presently I'm' looking for my first proffesional experience where I can develop under supervision of expert developers.
+            Presently I'm looking for my first proffesional experience where I can develop under supervision of expert developers.
           </p>
         </div>
 

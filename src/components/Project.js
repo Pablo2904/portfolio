@@ -24,7 +24,7 @@ class Project extends Component{
               <img className="img-fluid "src={this.props.imageSource} alt="Weather app"/>
             </div>
             <div className="projectWrapper__buttons d-flex justify-content-around flex-wrap">
-              <a href={this.props.gitHub}>github</a>
+              <a href={this.props.gitHub}>Github</a>
               <a href={this.props.liveDemo}>Live demo</a>
             </div>
           </div>

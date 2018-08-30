@@ -18,19 +18,19 @@ const Projects = () => (
           projectTitle="Weather App"
           projectDescription="My first Project with React Library. It using external weather API. With it u can easily check weather in your region! Just type name of your city and country in english"
           techStack={['HTML/CSS', 'Bootstrap', 'Javascript', 'Fetch API', 'React']}
-          gitHub=""
-          liveDemo=""
+          gitHub="https://github.com/Pablo2904/WeatherApp"
+          liveDemo="https://pablo2904.github.io/WeatherApp/"
           imageSource={weatherapp}
         />
       </TabPanel>
-      
+
       <TabPanel>
         <Project
           projectTitle="Recipe App"
           projectDescription="My second App where React is apply. It also using React-Router Module to handle subpages. I use food2fork external API to recevie data"
           techStack={['HTML/CSS', 'Bootstrap 4', 'Javascript', 'Fetch API', 'React']}
-          gitHub=""
-          liveDemo=""
+          gitHub="https://github.com/Pablo2904/Recipe-App"
+          liveDemo="https://pablo2904.github.io/Recipe-App/"
           imageSource={recipeapp}
         />
       </TabPanel>

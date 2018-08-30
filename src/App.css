@@ -80,7 +80,6 @@
 /*Resume Section*/
 .resumeWrapper{
   background: #cbcfd6;
-  min-height: 80vh;
 }
 .resumeWrapper__left hr{
   border: 1px solid;
@@ -117,7 +116,7 @@
   border: 2px solid black;
 }
 .contact__section ul{
-  width: 67w%;
+  width: 67%;
 }
 .contact__list i {
   font-size:1.5em;
@@ -159,6 +158,11 @@
     font-size: 1.25em;
   }
 }
+@media all and (max-width:400px){
+  .contact__list {
+    font-size: 0.7em;
+  }
+}
 @media all and (max-width:480px){
   .aboutWrapper__info h1 {
     font-size: 3em;
@@ -175,7 +179,6 @@
   .projectWrapper__info img{
     display: none;
   }
-
 }
 @media all and (max-width:1020px){
   .projectWrapper_card{

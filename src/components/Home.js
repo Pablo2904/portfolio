@@ -14,7 +14,7 @@ const Home = () => {
             <h1 className="pt-5">Paweł Kościelny</h1>
             <h2 className="pb-5">FrontEnd Developer</h2>
             <hr className="mt-4"/>
-            <p>HTML/CSS | Bootstrap | JavaScript | React | Photoshop</p>
+            <p>HTML/CSS | Bootstrap | JavaScript | React | Photoshop | Npm | GitHub</p>
 
             <div className="aboutWrapper__social d-flex justify-content-around pb-2">
               {/*Github Social*/}
