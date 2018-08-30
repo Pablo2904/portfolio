@@ -25,7 +25,6 @@ class Project extends Component{
             </div>
             <div className="projectWrapper__buttons d-flex justify-content-around flex-wrap">
               <a href={this.props.gitHub}>Github</a>
-              <a href={this.props.liveDemo}>Live demo</a>
             </div>
           </div>
         </div>
