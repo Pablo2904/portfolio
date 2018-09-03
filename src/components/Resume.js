@@ -57,15 +57,17 @@ const Resume = () => {
           <h2>Skills</h2>
           <Skills
             skill = {[
-              ['HTML5', 'Good', '#00e676' ],
-              ['CSS3', 'Good', '#00e676' ],
-              ['SASS', 'Basic', '#1de9b6'],
-              ['JavaScript & ES6', 'Medium', '#00b0ff'],
+              ['HTML5', 'Good', '#00e676'],
+              ['CSS3', 'Good', '#00e676'],
+              ['SASS', 'Medium', '#00b0ff'],
+              ['JavaScript & ES6', 'Good', '#00e676'],
+              ['jQuery', 'Medium', '#00b0ff'],
               ['Bootstrap', 'Medium', '#00b0ff'],
-              ['Materialize CSS', 'Basic', '#1de9b6'],
+              ['Materialize CSS', 'Medium', '#00b0ff'],
               ['React/Redux', 'Basic', '#1de9b6'],
               ['NodeJS', 'Basic', '#1de9b6'],
               ['Joomla!', 'Basic', '#1de9b6'],
+              ['PHP', 'Basic', '#1de9b6'],
               ['Photoshop', 'Basic', '#1de9b6'],
               ['GitHub', 'Medium', '#00b0ff'],
               ['NPM', 'Basic', '#1de9b6'],
