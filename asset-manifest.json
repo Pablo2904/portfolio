@@ -1,10 +1,13 @@
 {
-  "main.css": "static/css/main.05990913.css",
-  "main.css.map": "static/css/main.05990913.css.map",
-  "main.js": "static/js/main.9bbd5d0d.js",
-  "main.js.map": "static/js/main.9bbd5d0d.js.map",
+  "main.css": "static/css/main.dd46c0d7.css",
+  "main.css.map": "static/css/main.dd46c0d7.css.map",
+  "main.js": "static/js/main.80f69c93.js",
+  "main.js.map": "static/js/main.80f69c93.js.map",
+  "static\\media\\bizland.jpg": "static/media/bizland.ba78fc5c.jpg",
   "static\\media\\ja.png": "static/media/ja.1f125aae.png",
+  "static\\media\\madmin.jpg": "static/media/madmin.8c8a3d91.jpg",
   "static\\media\\myAvatar.svg": "static/media/myAvatar.3e464c69.svg",
+  "static\\media\\quazzu.jpg": "static/media/quazzu.5b81c575.jpg",
   "static\\media\\recipeapp.jpg": "static/media/recipeapp.e426a442.jpg",
   "static\\media\\weatherapp.jpg": "static/media/weatherapp.38a15c94.jpg"
 }
