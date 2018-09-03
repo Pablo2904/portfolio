@@ -53,9 +53,9 @@ const Projects = () => {
         <TabPanel>
           <Tabs className=""  forceRenderTabPanel>
             <TabList className="d-flex flex-wrap pl-0 justify-content-center pt-1 pb-2">
-              <Tab>First Project</Tab>
-              <Tab>Second Project</Tab>
-              <Tab>Third Project</Tab>
+              <Tab>Cloud Hosting</Tab>
+              <Tab>Buissnes Landing Page</Tab>
+              <Tab>Admin Dashboard</Tab>
             </TabList>
 
             <TabPanel>
@@ -80,8 +80,8 @@ const Projects = () => {
             </TabPanel>
             <TabPanel>
               <Project
-                projectTitle="Madmin - admin theme for CMS "
-                projectDescription="Admin dashbord with couple subpages, which can be used in some FullStack project"
+                projectTitle="Madmin - Admin theme"
+                projectDescription="Admin dashboard with couple subpages, which can be used in FullStack project"
                 techStack={['HTML/CSS', 'MaterializeCSS', 'jQuery', 'CKEditor']}
                 gitHub="https://github.com/Pablo2904/MaterializeCSS-fourthProject"
                 liveDemo="http://pawel.koscielny.myadmin.s3-website.eu-central-1.amazonaws.com"

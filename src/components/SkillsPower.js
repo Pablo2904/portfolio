@@ -1,13 +1,13 @@
 import React from 'react';
 
-const Skills = props => {
+const SkillsPower = props => {
   return (
     <div className="skill__card">
-      <ul className="pl-3 ">
+      <ul>
         {props.skill.map(item => {
           return (
-            <li key={item[0]} >
-              {item[0]}
+            <li key={item[0]} style={{color: item[2], fontWeight:"bold" }} >
+              {item[1]}
             </li>
           )
         })}
@@ -16,4 +16,4 @@ const Skills = props => {
   );
 };
 
-export default Skills;
+export default SkillsPower;
