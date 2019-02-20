@@ -1,16 +1,16 @@
 /*About Component*/
-.aboutWrapper{
+.aboutWrapper {
   background: #cbcfd6;
-  color:black;
+  color: black;
   text-align: center;
 }
-.aboutWrapper__img{
+.aboutWrapper__img {
   height: 35vh;
   padding-top: 5em;
 }
-.aboutWrapper__info{
+.aboutWrapper__info {
   background-color: black;
-  opacity: .8;
+  opacity: 0.8;
   border-radius: 10px;
   color: white;
 }
@@ -21,48 +21,48 @@
 .aboutWrapper__info h2 {
   font-size: 2.6em;
 }
-.aboutWrapper__info hr{
+.aboutWrapper__info hr {
   border-top: 0.8vh dotted white;
   width: 80%;
 }
-.aboutWrapper__info p{
-  font-size:1.5em;
+.aboutWrapper__info p {
+  font-size: 1.5em;
   padding: 1em;
   margin: auto;
 }
 .aboutWrapper__social {
   width: 50%;
-  margin:auto;
+  margin: auto;
 }
 .aboutWrapper__social i {
-  color:white;
+  color: white;
   font-size: 5em;
 }
 /*Projects section*/
 /**/
 
-.projectWrapper{
+.projectWrapper {
   background: #cbcfd6;
 }
-.projectWrapper_card{
+.projectWrapper_card {
   width: 50%;
-  margin:auto;
+  margin: auto;
   text-align: center;
 }
 .projectWrapper__info {
   font-size: 1.1em;
   margin-bottom: 4em;
   width: 75%;
-  margin:auto;
+  margin: auto;
 }
-.projectWrapper__info p+p {
+.projectWrapper__info p + p {
   font-weight: bold;
   font-size: 1.3em;
 }
-.projectWrapper__info li{
+.projectWrapper__info li {
   list-style-type: none;
 }
-.projectWrapper__buttons a{
+.projectWrapper__buttons a {
   text-transform: uppercase;
   margin-top: 1em;
   font-weight: bold;
@@ -70,88 +70,89 @@
   box-sizing: border-box;
   padding: 1em;
 }
-.projectWrapper__buttons a:hover{
+.projectWrapper__buttons a:hover {
   background: #212529;
   opacity: 0.8;
-  transition: 0.4s linear;
+  transition: 0.2s linear;
   text-decoration: none;
   border-radius: 1.3em;
 }
 /*Resume Section*/
-.resumeWrapper{
+.resumeWrapper {
   background: #cbcfd6;
 }
-.resumeWrapper__left hr{
+.resumeWrapper__left hr {
   border: 1px solid;
   width: 60%;
 }
-.resumeWrapper__right{
+.resumeWrapper__right {
   color: white;
   background: #343a40;
 }
-.resumeWrapper__right h2{
+.resumeWrapper__right h2 {
   margin-bottom: 1em;
 }
-.resumeWrapper__right hr{
-  border-top:  3px solid
+.resumeWrapper__right hr {
+  border-top: 3px solid;
 }
-.skill__card ul{
+.skill__card ul {
   list-style-type: none;
 }
-.skill__card li{
+.skill__card li {
   line-height: 1.8em;
 }
 /*Contact Section*/
-.contact__wrapper{
+.contact__wrapper {
   background: #cbcfd6;
 }
-.contact__section{
+.contact__section {
   text-align: center;
 }
-.contact__section img{
+.contact__section img {
   width: 50%;
 }
-.contact__section hr{
+.contact__section hr {
   width: 75%;
   border: 2px solid black;
 }
-.contact__section ul{
+.contact__section ul {
   width: 67%;
 }
 .contact__list i {
-  font-size:1.5em;
+  font-size: 1.5em;
 }
-.contact__list a:hover{
+.contact__list a:hover {
   text-decoration: none;
 }
-.contact__about{
+.contact__about {
   width: 60%;
   margin: auto;
 }
 /*Footer section*/
-.footerWrapper{
-  color:white;
+.footerWrapper {
+  color: white;
   background-color: #343a40;
   text-align: center;
   font-size: 0.8em;
 }
-.footerWrapper:first-child{
+.footerWrapper:first-child {
   padding-top: 1em;
 }
-.footerWrapper i{
+.footerWrapper i {
   font-size: 1.8em;
   margin-bottom: 1em;
 }
+
 /*Media Queris*/
 
-@media all and (max-width:1500px){
-  .projectWrapper_card{
-  width: 85%;
+@media all and (max-width: 1500px) {
+  .projectWrapper_card {
+    width: 85%;
   }
 }
-@media all and (max-width:1020px){
-  .projectWrapper_card{
-  width: 100%;
+@media all and (max-width: 1020px) {
+  .projectWrapper_card {
+    width: 100%;
   }
   .contact__section hr {
     width: 95%;
@@ -159,48 +160,48 @@
   .contact__section ul {
     width: 90%;
   }
-  .contact__section img{
+  .contact__section img {
     width: 70%;
   }
-  .contact__about{
+  .contact__about {
     width: 100%;
   }
 }
-@media all and (max-width:560px){
+@media all and (max-width: 560px) {
   .projectWrapper__info {
     width: 95%;
   }
-  .card-body{
+  .card-body {
     padding-left: 0 !important;
-    padding-right:  0 !important;
+    padding-right: 0 !important;
   }
 }
-@media all and (max-width:480px){
+@media all and (max-width: 480px) {
   .aboutWrapper__info h1 {
     font-size: 3em;
   }
   .aboutWrapper__info h2 {
     font-size: 2em;
   }
-  .aboutWrapper__info p{
+  .aboutWrapper__info p {
     font-size: 1.1em;
   }
   .aboutWrapper__social i {
     font-size: 3.8em;
   }
-  .projectWrapper__info img{
+  .projectWrapper__info img {
     display: none;
   }
 }
-@media all and (max-width:400px){
+@media all and (max-width: 400px) {
   .contact__list {
     font-size: 0.7em;
   }
 }
-@media all and (max-width:380px){
-  .aboutWrapper__social{
+@media all and (max-width: 380px) {
+  .aboutWrapper__social {
     justify-content: space-around;
-    width:unset;
+    width: unset;
   }
   .aboutWrapper__info h1 {
     font-size: 2.6em;
@@ -208,7 +209,7 @@
   .aboutWrapper__info h2 {
     font-size: 1.6em;
   }
-  .aboutWrapper__info p{
+  .aboutWrapper__info p {
     font-size: 1.25em;
   }
 }
