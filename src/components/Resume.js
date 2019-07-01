@@ -9,20 +9,24 @@ const skill = [
   ['HTML5', 'Good', '#00e676'],
   ['CSS3', 'Good', '#00e676'],
   ['SASS', 'Medium', '#00b0ff'],
-  ['JavaScript & ES6', 'Good', '#00e676'],
+  ['JavaScript ES6+', 'Good', '#00e676'],
   ['jQuery', 'Medium', '#00b0ff'],
   ['Bootstrap', 'Medium', '#00b0ff'],
   ['Materialize CSS', 'Medium', '#00b0ff'],
   ['React', 'Good', '#00e676'],
   ['Redux', 'Medium', '#00b0ff'],
+  ['Vue', 'Medium', '#00b0ff'],
+  ['Vuex', 'Medium', '#00b0ff'],
+  ['Nuxt', 'Basic', '#1de9b6'],
   ['NodeJS', 'Basic', '#1de9b6'],
-  ['Joomla!', 'Basic', '#1de9b6'],
   ['Wordpress', 'Basic', '#1de9b6'],
   ['PHP', 'Basic', '#1de9b6'],
   ['Photoshop', 'Basic', '#1de9b6'],
   ['Git', 'Medium', '#00b0ff'],
   ['NPM', 'Medium', '#00b0ff'],
-  ['Webpack', 'Medium', '#00b0ff']
+  ['Yarn', 'Medium', '#00b0ff'],
+  ['Webpack', 'Medium', '#00b0ff'],
+  ['Jest', 'Medium', '#00b0ff']
 ];
 
 const Resume = () => {
@@ -84,7 +88,13 @@ const Resume = () => {
             startYear="09.2018"
             endYear="present"
             schoolName="Junior Front-end Developer at Inspire Labs Sp. z o. o."
-            schoolDescription="Working with React and Wordpress (Woocommerce) API, Bug fixing, Code maintenance, Implementing new features"
+            schoolDescription="Work with React and Woocommerce API during development of multishops app, implementation of new features, bug fixing, daily use of webpack, git, gitlab, from time to time styling with SASS, coding with VanillaJS and jQuery. After 6 months I'm still in support of React App by maintaining project and refreshing layout."
+          />
+          <Education
+            startYear="03.2019"
+            endYear="present"
+            schoolName="Junior JavaScript Developer at Codest"
+            schoolDescription="Working with Vue, Vuex, Nuxt during development of chrome extension in SCRUM methodology, cooperation with UI/UX Designer. Daily use of Git, Yarn, CircleCI. Work according to the rules of Code Review. Providing tested and scalable code"
           />
           <hr />
           <h2>Skills</h2>
